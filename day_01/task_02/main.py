@@ -1,5 +1,8 @@
 
 if __name__ == '__main__':
+    """Reads in a set of integers for a file and calculates a set
+    of three of them. This set is then compared with the previous three set
+    and tracks how many three sets were greater than their previous three set."""
     input_data = open('./input_data')
     line_counter = 0
     increased_counter = 0
