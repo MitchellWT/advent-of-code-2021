@@ -42,7 +42,7 @@ if __name__ == '__main__':
     # Collect data from file
     for input_line in input_data:
         if line_one:
-            bingo_numbers = input_line.split(',')
+            bingo_numbers = input_line.replace('\n', '').split(',')
             line_one = False
             continue
 
